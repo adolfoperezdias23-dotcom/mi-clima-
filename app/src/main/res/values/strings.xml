@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MiClima</string>
+    <string name="canal_clima_nombre">Avisos del clima</string>
+    <string name="canal_clima_descripcion">Alertas y avisos meteorológicos enviados por notificación push</string>
+</resources>
