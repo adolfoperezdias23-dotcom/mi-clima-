@@ -51,7 +51,7 @@ class ClimaMapperTest {
         assertEquals(2, clima.proximosDias.size)
         assertEquals("Lluvia ligera", clima.proximosDias[1].descripcion)
         assertEquals(80, clima.proximosDias[1].probLluvia)
-        assertEquals(22, Math.round(clima.proximosDias[1].maxima).toInt())
+        assertEquals(22.5, clima.proximosDias[1].maxima, 0.001)
     }
 
     @Test
