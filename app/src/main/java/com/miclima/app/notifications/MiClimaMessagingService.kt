@@ -19,7 +19,6 @@ import com.miclima.app.R
 class MiClimaMessagingService : FirebaseMessagingService() {
 
     override fun onNewToken(token: String) {
-        // Con un backend propio, aquí se registraría el token del dispositivo
         Log.d("FCM", "Nuevo token: $token")
     }
 

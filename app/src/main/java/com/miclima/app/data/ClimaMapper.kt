@@ -11,7 +11,6 @@ import java.time.LocalDate
 import java.time.LocalDateTime
 import java.time.ZoneId
 
-/** Convierte la respuesta cruda de Open-Meteo al modelo de dominio de la app. */
 object ClimaMapper {
 
     fun aClima(r: ClimaResponse, desdeCache: Boolean, actualizadoEn: Long): Clima {
@@ -29,7 +28,6 @@ object ClimaMapper {
             emoji = CodigosClima.emoji(codigoActual, esDia),
         )
 
-        // Las horas vienen en la zona horaria de la ciudad (timezone=auto)
         val zona = runCatching { ZoneId.of(r.timezone ?: "UTC") }.getOrDefault(ZoneId.systemDefault())
         val ahora = LocalDateTime.now(zona)
 

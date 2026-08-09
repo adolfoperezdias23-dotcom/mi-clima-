@@ -29,7 +29,6 @@ class CiudadesViewModel : ViewModel() {
     private val repo = ServiceLocator.repositorio
     private val gson = Gson()
 
-    /** Ciudades guardadas en Room, enriquecidas con la última temperatura en caché. */
     val ciudades: StateFlow<List<CiudadUi>> =
         combine(repo.ciudadesGuardadas(), repo.climasEnCache()) { guardadas, cache ->
             val porClave = cache.associateBy { it.clave }

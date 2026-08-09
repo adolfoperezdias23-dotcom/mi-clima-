@@ -2,7 +2,6 @@ package com.miclima.app.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-/** Respuesta de https://api.open-meteo.com/v1/forecast */
 data class ClimaResponse(
     @SerializedName("latitude") val latitude: Double?,
     @SerializedName("longitude") val longitude: Double?,

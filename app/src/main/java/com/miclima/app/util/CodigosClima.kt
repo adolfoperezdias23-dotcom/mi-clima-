@@ -1,6 +1,5 @@
 package com.miclima.app.util
 
-/** Interpreta los códigos meteorológicos estándar WMO que entrega Open-Meteo. */
 object CodigosClima {
 
     fun descripcion(codigo: Int): String = when (codigo) {

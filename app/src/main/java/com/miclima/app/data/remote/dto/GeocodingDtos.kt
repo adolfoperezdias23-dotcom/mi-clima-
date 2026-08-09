@@ -2,7 +2,6 @@ package com.miclima.app.data.remote.dto
 
 import com.google.gson.annotations.SerializedName
 
-/** Respuesta de https://geocoding-api.open-meteo.com/v1/search */
 data class GeocodingResponse(
     @SerializedName("results") val results: List<LugarDto>?,
 )

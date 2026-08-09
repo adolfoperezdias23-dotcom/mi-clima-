@@ -23,7 +23,6 @@
             </intent-filter>
         </activity>
 
-        <!-- Recepción de notificaciones push (Firebase Cloud Messaging) -->
         <service
             android:name=".notifications.MiClimaMessagingService"
             android:exported="false">

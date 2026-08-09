@@ -13,7 +13,6 @@ class MiClimaApp : Application() {
         crearCanalDeNotificaciones()
     }
 
-    /** Canal requerido desde Android 8 para mostrar las notificaciones de FCM. */
     private fun crearCanalDeNotificaciones() {
         val canal = NotificationChannel(
             CANAL_CLIMA,

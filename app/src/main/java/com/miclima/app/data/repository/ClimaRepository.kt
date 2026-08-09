@@ -17,10 +17,6 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.withContext
 
-/**
- * Única fuente de datos para la UI: combina la API REST de Open-Meteo
- * con la base local Room (ciudades guardadas y caché offline).
- */
 class ClimaRepository(
     private val geocodingApi: GeocodingApi,
     private val climaApi: ClimaApi,
@@ -68,7 +64,6 @@ class ClimaRepository(
         ciudadDao.eliminar(id)
     }
 
-    /** Red primero; si falla, se sirve el último pronóstico guardado en Room. */
     suspend fun obtenerClima(latitud: Double, longitud: Double): Resultado<Clima> = withContext(Dispatchers.IO) {
         val clave = clave(latitud, longitud)
         try {

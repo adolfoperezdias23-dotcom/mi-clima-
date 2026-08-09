@@ -5,7 +5,6 @@ import com.miclima.app.data.remote.dto.GeocodingResponse
 import retrofit2.http.GET
 import retrofit2.http.Query
 
-/** Búsqueda de ciudades por nombre (geocoding-api.open-meteo.com). */
 interface GeocodingApi {
     @GET("v1/search")
     suspend fun buscar(
@@ -16,7 +15,6 @@ interface GeocodingApi {
     ): GeocodingResponse
 }
 
-/** Pronóstico meteorológico (api.open-meteo.com). */
 interface ClimaApi {
     @GET("v1/forecast")
     suspend fun pronostico(

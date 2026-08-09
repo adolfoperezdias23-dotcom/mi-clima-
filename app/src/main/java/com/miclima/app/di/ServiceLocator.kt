@@ -12,7 +12,6 @@ import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory
 
-/** Inyección de dependencias manual: un único punto donde se construye todo. */
 object ServiceLocator {
 
     private lateinit var db: AppDatabase

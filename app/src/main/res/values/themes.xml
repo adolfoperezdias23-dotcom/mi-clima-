@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Tema base del sistema; la interfaz real se dibuja con Jetpack Compose -->
     <style name="Theme.MiClima" parent="android:Theme.Material.Light.NoActionBar" />
 </resources>

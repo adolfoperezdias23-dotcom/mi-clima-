@@ -1,6 +1,5 @@
 package com.miclima.app.domain
 
-/** Resultado de la búsqueda de ciudades. */
 data class Lugar(
     val id: Long,
     val nombre: String,
@@ -37,7 +36,6 @@ data class ClimaDia(
     val probLluvia: Int,
 )
 
-/** Modelo que consume la interfaz. */
 data class Clima(
     val actual: ClimaActual,
     val porHoras: List<ClimaHora>,

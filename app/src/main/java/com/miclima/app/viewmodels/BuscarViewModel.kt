@@ -35,7 +35,6 @@ class BuscarViewModel : ViewModel() {
         }
     }
 
-    /** Guarda la ciudad en Room y después continúa (navegar al detalle). */
     fun guardar(lugar: Lugar, alTerminar: () -> Unit) {
         viewModelScope.launch {
             repo.guardarCiudad(lugar)

@@ -30,7 +30,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 
-    /** Pide el permiso de notificaciones (Android 13+) y se suscribe al tema de avisos de FCM. */
     private fun prepararNotificaciones() {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU &&
             ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS)
@@ -39,7 +38,6 @@ class MainActivity : ComponentActivity() {
             pedirPermisoNotificaciones.launch(Manifest.permission.POST_NOTIFICATIONS)
         }
 
-        // Con el google-services.json de plantilla estas llamadas fallan sin romper la app
         runCatching {
             FirebaseMessaging.getInstance().subscribeToTopic("alertas_clima")
             FirebaseMessaging.getInstance().token.addOnSuccessListener { token ->

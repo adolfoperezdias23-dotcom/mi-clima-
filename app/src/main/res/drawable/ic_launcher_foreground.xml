@@ -4,11 +4,9 @@
     android:height="108dp"
     android:viewportWidth="108"
     android:viewportHeight="108">
-    <!-- Sol -->
     <path
         android:fillColor="#FFD54F"
         android:pathData="M62,32 m-13,0 a13,13 0 1,1 26,0 a13,13 0 1,1 -26,0" />
-    <!-- Nube -->
     <path
         android:fillColor="#FFFFFF"
         android:pathData="M39,76 h32 a10,10 0 0 0 0,-20 a1,1 0 0 0 -1,0.05 a15,15 0 0 0 -28,3.5 a9.5,9.5 0 0 0 -3,16.45 z" />
