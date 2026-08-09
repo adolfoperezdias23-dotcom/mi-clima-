@@ -180,7 +180,16 @@ Repositorio Git con historial por capas (configuración → datos → interfaz �
 
 ## 12. Evidencias
 
-- **Capturas de pantalla:** carpeta `docs/capturas/` _(insertar: lista vacía, búsqueda, pronóstico, modo offline, notificación push)_.
+Capturas de la aplicación ejecutándose en el emulador Pixel 8 desde Android Studio (archivos en `docs/capturas/`):
+
+| Figura | Archivo | Descripción |
+|---|---|---|
+| 1 | `01-lista-vacia.png` | Pantalla principal en el primer arranque |
+| 2 | `02-busqueda.png` | Búsqueda de ciudad |
+| 3 | `03-resultados-busqueda.png` | Resultados de la geocodificación |
+| 4 | `04-pronostico-monterrey.png` | Pronóstico completo de Monterrey |
+| 5 | `05-ciudades-guardadas.png` | Ciudades guardadas (Room) |
+
 - **Video demostrativo:** _(URL del video)_.
 
 ## 13. Conclusiones

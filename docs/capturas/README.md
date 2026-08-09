@@ -1,26 +1,16 @@
 # Capturas de pantalla
 
-Coloca aquí las capturas de la app en ejecución (se toman con la app corriendo en un emulador o dispositivo).
-
-## Capturas sugeridas
+Capturas de la app ejecutándose en el emulador (Pixel 8) desde Android Studio. Estas mismas imágenes están incrustadas en la sección 12 del `REPORTE_TECNICO`.
 
 | Archivo | Pantalla |
 |---|---|
 | `01-lista-vacia.png` | Pantalla principal sin ciudades (estado vacío) |
-| `02-busqueda.png` | Búsqueda con resultados (p. ej. "Monterrey") |
-| `03-pronostico.png` | Detalle: clima actual + por horas + 7 días |
-| `04-ciudades.png` | Lista con 2–3 ciudades guardadas y su temperatura |
-| `05-offline.png` | Detalle en modo avión con el banner "Sin conexión" |
-| `06-notificacion.png` | Notificación push de FCM recibida |
+| `02-busqueda.png` | Búsqueda con el texto "monterrey" |
+| `03-resultados-busqueda.png` | Resultados de la búsqueda (geocodificación) |
+| `04-pronostico-monterrey.png` | Pronóstico: clima actual, por horas y a 7 días |
+| `05-ciudades-guardadas.png` | Lista de ciudades guardadas con su temperatura |
 
-## Cómo tomarlas
+Pendientes opcionales:
 
-- **Android Studio:** pestaña *Running Devices* → ícono de cámara.
-- **Emulador:** botón de cámara del panel lateral (se guardan en el Escritorio).
-- **Línea de comandos:**
-
-```bash
-adb exec-out screencap -p > 01-lista-vacia.png
-```
-
-Después de guardarlas aquí, enlázalas en el `REPORTE_TECNICO.md` (sección 12) y súbelas al repositorio con `git add docs/capturas`.
+- `06-offline.png` — detalle de una ciudad en modo avión (banner "Sin conexión"), muestra la caché de Room.
+- `07-notificacion.png` — notificación push de FCM; requiere reemplazar `app/google-services.json` con el de un proyecto real de Firebase.
