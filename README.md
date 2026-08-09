@@ -61,8 +61,7 @@ app/src/main/java/com/miclima/app/
 ## Cómo ejecutar el proyecto
 
 1. Instala [Android Studio](https://developer.android.com/studio) (incluye JDK 17 y SDK de Android).
-2. Clona el repositorio y ábrelo en Android Studio (`File > Open`). La sincronización descargará Gradle 8.9 y las dependencias automáticamente.
-   - Si compilas por línea de comandos y no existe `gradle/wrapper/gradle-wrapper.jar`, genera el wrapper una vez con `gradle wrapper` (o compila desde Android Studio, que no lo necesita).
+2. Clona el repositorio y ábrelo en Android Studio (`File > Open`). La sincronización descargará Gradle 8.14.5 y las dependencias automáticamente.
 3. Ejecuta la app en un emulador o dispositivo con **Android 8.0 (API 26) o superior**. Se necesita internet para descargar el pronóstico la primera vez.
 
 ### Configurar Firebase (para ver las notificaciones push)

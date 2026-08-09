@@ -43,7 +43,7 @@ El objetivo del proyecto es demostrar el dominio de las tecnologías solicitadas
 |---|---|---|
 | Kotlin | 2.1.0 | Lenguaje único de la app |
 | Android Gradle Plugin | 8.7.3 | Sistema de compilación |
-| Gradle | 8.9 | Sistema de compilación |
+| Gradle | 8.14.5 | Sistema de compilación |
 | Jetpack Compose BOM | 2024.12.01 (Material 3) | Toda la interfaz |
 | Navigation Compose | 2.8.5 | Navegación entre pantallas |
 | Lifecycle / ViewModel | 2.8.7 | MVVM y ciclo de vida |
