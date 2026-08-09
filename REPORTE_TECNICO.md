@@ -7,7 +7,7 @@
 | **Matrícula / Grupo** | _(completar)_ |
 | **Materia** | _(completar)_ |
 | **Fecha** | Agosto de 2026 |
-| **Repositorio** | _(URL de GitHub)_ |
+| **Repositorio** | https://github.com/adolfoperezdias23-dotcom/mi-clima- |
 
 ---
 
