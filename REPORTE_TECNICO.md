@@ -181,7 +181,7 @@ Repositorio Git con historial por capas (configuración → datos → interfaz �
 ## 12. Evidencias
 
 - **Capturas de pantalla:** carpeta `docs/capturas/` _(insertar: lista vacía, búsqueda, pronóstico, modo offline, notificación push)_.
-- **Video demostrativo:** _(URL del video)_ — guion sugerido en `docs/GUION_VIDEO.md`.
+- **Video demostrativo:** _(URL del video)_.
 
 ## 13. Conclusiones
 

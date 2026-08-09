@@ -82,6 +82,6 @@ gradlew.bat test        # Windows
 
 Se prueban las utilidades de códigos meteorológicos WMO, el formateo de fechas y el mapeo de la respuesta de la API al modelo de dominio.
 
-## Capturas y video
+## Capturas y reporte
 
-Las capturas de pantalla se encuentran en [`docs/capturas/`](docs/capturas/) y el guion del video demostrativo en [`docs/GUION_VIDEO.md`](docs/GUION_VIDEO.md). El reporte técnico completo está en [`REPORTE_TECNICO.md`](REPORTE_TECNICO.md).
+Las capturas de pantalla se encuentran en [`docs/capturas/`](docs/capturas/) y el reporte técnico completo en [`REPORTE_TECNICO.md`](REPORTE_TECNICO.md).
